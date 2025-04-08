@@ -17,15 +17,15 @@
     "LANGUAGE": "en_US",
     "LOG_LEVEL": 2,
     "MODERATORS": [
-        "61563763283847",
-        "100055615491143"
+        "61564459952029",
+        "61564459952029"
     ],
     "ABSOLUTES": [
-        "61563763283847",
-        "100055615491143"
+        "61564459952029",
+        "61564459952029"
     ],
-    "NAME": "loki",
-    "PREFIX": ".",
+    "NAME": "Yhanna Bot",
+    "PREFIX": "-",
     "timezone": "Asia/Manila",
     "REFRESH": null,
     "MAX_BALANCE_LIMIT": "-1"

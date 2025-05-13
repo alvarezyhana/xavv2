@@ -17,15 +17,15 @@
     "LANGUAGE": "en_US",
     "LOG_LEVEL": 2,
     "MODERATORS": [
-        "100065246477756",
+        "100063138152006",
         "61564459952029"
     ],
     "ABSOLUTES": [
-        "100065246477756",
+        "100063138152006",
         "61564459952029"
     ],
     "NAME": "Yhanna Bot",
-    "PREFIX": "-",
+    "PREFIX": "+",
     "timezone": "Asia/Manila",
     "REFRESH": null,
     "MAX_BALANCE_LIMIT": "-1"

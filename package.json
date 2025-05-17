@@ -1,54 +1,46 @@
 {
-  "name": "xaviabot",
-  "version": "2.4.2",
-  "description": "A Facebook Messenger Bot",
-  "main": "index.js",
-  "type": "module",
-  "engines": {
-    "node": ">=16.x"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "startDev": "node --trace-warnings --experimental-import-meta-resolve --expose-gc core/_build.js"
-  },
-  "keywords": [
-    "xaviabot",
-    "fca-unofficial",
-    "facebook-chat-api",
-    "chatbot",
-    "facebook",
-    "messenger"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/XaviaTeam/XaviaBot.git"
-  },
-  "author": "RFS-ADRENO",
-  "license": "MIT",
-  "dependencies": {
-    "@distube/ytdl-core": "^4.14.4",
-    "@replit/database": "^2.0.2",
-    "@xaviabot/fca-unofficial": "^1.3.33",
-    "axios": "^1.6.7",
-    "canvas": "^2.10.1",
-    "cors": "^2.8.5",
-    "crypto-js": "^4.1.1",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "express-rate-limit": "^6.7.0",
-    "fca-liane-utils": "^1.4.0",
-    "ffmpeg-static": "^5.1.0",
-    "fluent-ffmpeg": "^2.1.2",
-    "fs-extra": "^11.2.0",
-    "helmet": "^6.0.0",
-    "is-url": "^1.2.4",
-    "js-yaml": "^4.1.0",
-    "moment-timezone": "^0.5.38",
-    "mongoose": "^7.5.0",
-    "node-cron": "^3.0.2",
-    "chatbox-fca-remake": "",
-    "semver": "^7.3.8",
-    "string-similarity": "^4.0.4",
-    "wikijs": "^6.4.0"
-  }
+    "name": "chatbox-fca-remake",
+    "version": "4.3.8",
+    "description": "Unofficial Facebook Chat API",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Avery, David, Maude, Benjamin, UIRI, DongDev, Kenneth Panio, Jr Busaco",
+    "license": "MIT",
+    "keywords": [
+        "facebook",
+        "chat",
+        "api",
+        "fca",
+        "chatbox-fca-remake",
+        "chatbox-fca",
+        "chatbox-fca-utils",
+        "chatbox-horizon",
+        "chatbox-nextgen",
+        "chatbox-fca-pro"
+    ],
+    "dependencies": {
+        "sshpk": "^1.18.0",
+        "readline": "^1.3.0",
+        "cheerio": "^0.22.0",
+        "deasync": "^0.1.30",
+        "node-cron": "^3.0.3",
+        "random-useragent": "^0.5.0",
+        "bluebird": "^3.7.2",
+        "axios": "^1.6.5",
+        "https-proxy-agent": "^4.0.0",
+        "mqtt": "^3.0.0",
+        "npmlog": "^1.2.0",
+        "request": "^2.88.2",
+        "websocket-stream": "^5.5.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.5.0",
+        "mocha": "^7.0.1",
+        "prettier": "^1.11.1"
+    },
+    "engines": {
+        "node": ">=10.x"
+    }
 }
